@@ -32,3 +32,4 @@
 /Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/obj/Debug/net8.0/CurrencyConverterAPI.genruntimeconfig.cache
 /Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/obj/Debug/net8.0/ref/CurrencyConverterAPI.dll
 /Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/bin/Debug/net8.0/CurrencyConverterAPI.staticwebassets.runtime.json
+/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/obj/Debug/net8.0/CurrencyConverterAPI.sourcelink.json

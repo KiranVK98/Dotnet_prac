@@ -10,7 +10,7 @@ namespace CurrencyConverterAPI.Controllers
         private const decimal ConversionInrToUsd = 0.012M; // Example conversion rate from INR to USD
         private const decimal ConversionUsdToInr = 83M;
         [HttpPost("convertInrToUsd")]
-        public IActionResult ConvertInrToUsd([FromBody] CurrencyConversionRequest request)
+        public IActionResult ConvertInrtoUsd([FromBody] CurrencyConversionRequest request)
         {
             Console.WriteLine(request.Amount);
             var convertedAmount = request.Amount * ConversionInrToUsd;
