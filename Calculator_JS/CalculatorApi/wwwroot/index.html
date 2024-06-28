@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="result" readonly>
+        <button onclick="appendNumber(1)">1</button>
+        <button onclick="appendNumber(2)">2</button>
+        <button onclick="appendNumber(3)">3</button>
+        <button onclick="setOperation('+')">+</button>
+        <button onclick="appendNumber(4)">4</button>
+        <button onclick="appendNumber(5)">5</button>
+        <button onclick="appendNumber(6)">6</button>
+        <button onclick="setOperation('-')">-</button>
+        <button onclick="appendNumber(7)">7</button>
+        <button onclick="appendNumber(8)">8</button>
+        <button onclick="appendNumber(9)">9</button>
+        <button onclick="setOperation('*')">*</button>
+        <button onclick="clearResult()">C</button>
+        <button onclick="appendNumber(0)">0</button>
+        <button onclick="calculateResult()">=</button>
+        <button onclick="setOperation('/')">/</button>
+    </div>
+
+    <script>
+        function appendNumber(num) {
+            document.getElementById('result').value += num;
+        }
+
+        function setOperation(operator) {
+            document.getElementById('result').value += operator;
+        }
+
+        function clearResult() {
+            document.getElementById('result').value = '';
+        }
+
+        function calculateResult() {
+            let expression = document.getElementById('result').value;
+            let parts = expression.match(/(\d+)([\+\-\*\/])(\d+)/);
+
+            if (parts && parts.length === 4) {
+                let num1 = parseInt(parts[1]);
+                let op = parts[2];
+                let num2 = parseInt(parts[3]);
+
+                fetch('https://localhost:5114/api/calculator/execute', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        A: num1,
+                        B: num2,
+                        Operation: op
+                    })
+                })
+                .then(response => response.json())
+                .then(result => {
+                    document.getElementById('result').value = result;
+                })
+                .catch(error => console.error('Error:', error));
+            }
+        }
+    </script>
+</body>
+</html>

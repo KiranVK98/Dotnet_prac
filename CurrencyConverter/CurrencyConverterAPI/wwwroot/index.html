@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <label for="amount" class="label">Amount:</label>
+        <input type="text" id="amount" class="input-field" name="amount">
+        
+        <div class="button-container">
+            <button onclick="convertCurrency('inrToUsd')" class="button">Convert INR to USD</button>
+            <button onclick="convertCurrency('usdToInr')" class="button">Convert USD to INR</button>
+        </div>
+        
+        <div class="result-container" id="result"></div>
+    </div>
+</body>
+</html>

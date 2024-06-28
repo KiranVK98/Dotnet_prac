@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "wowK5pVW7Hx48oZaDuz+OWajXoHnGDgyn3Aj0yAdDdw=",
+  "Source": "CalculatorApi",
+  "BasePath": "_content/CalculatorApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CalculatorApi/wwwroot",
+      "Source": "CalculatorApi",
+      "ContentRoot": "/Users/kirankulkarni/Desktop/dotnetproj/Calculator_JS/CalculatorApi/wwwroot/",
+      "BasePath": "_content/CalculatorApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/kirankulkarni/Desktop/dotnetproj/Calculator_JS/CalculatorApi/wwwroot/index.html",
+      "SourceId": "CalculatorApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kirankulkarni/Desktop/dotnetproj/Calculator_JS/CalculatorApi/wwwroot/",
+      "BasePath": "_content/CalculatorApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
+}

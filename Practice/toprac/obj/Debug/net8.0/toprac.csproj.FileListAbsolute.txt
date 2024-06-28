@@ -1,0 +1,14 @@
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.AssemblyInfoInputs.cache
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.AssemblyInfo.cs
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.csproj.CoreCompileInputs.cache
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/bin/Debug/net8.0/toprac
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/bin/Debug/net8.0/toprac.deps.json
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/bin/Debug/net8.0/toprac.runtimeconfig.json
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/bin/Debug/net8.0/toprac.dll
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/bin/Debug/net8.0/toprac.pdb
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.dll
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/refint/toprac.dll
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.pdb
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/toprac.genruntimeconfig.cache
+/Users/kirankulkarni/Desktop/dotnetproj/Practice/toprac/obj/Debug/net8.0/ref/toprac.dll

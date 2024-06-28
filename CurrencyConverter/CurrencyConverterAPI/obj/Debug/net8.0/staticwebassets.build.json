@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "aIj/SIpcWcZ7uy15DUTO025MoDtg5sHIZ68bJSjOGOI=",
+  "Source": "CurrencyConverterAPI",
+  "BasePath": "_content/CurrencyConverterAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CurrencyConverterAPI/wwwroot",
+      "Source": "CurrencyConverterAPI",
+      "ContentRoot": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/",
+      "BasePath": "_content/CurrencyConverterAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/css/styles.css",
+      "SourceId": "CurrencyConverterAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/",
+      "BasePath": "_content/CurrencyConverterAPI",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/index.html",
+      "SourceId": "CurrencyConverterAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/",
+      "BasePath": "_content/CurrencyConverterAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/js/script.js",
+      "SourceId": "CurrencyConverterAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/kirankulkarni/Desktop/dotnetproj/CurrencyConverter/CurrencyConverterAPI/wwwroot/",
+      "BasePath": "_content/CurrencyConverterAPI",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/script.js"
+    }
+  ]
+}
