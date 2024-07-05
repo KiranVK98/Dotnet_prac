@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using CurrencyConverterAPI.Models;
+using System.Security.Cryptography.X509Certificates;
 
 namespace CurrencyConverterAPI.Controllers
 {
@@ -7,24 +8,27 @@ namespace CurrencyConverterAPI.Controllers
     [Route("[controller]")]
     public class CurrencyConverterController : ControllerBase
     {
-        private const decimal ConversionInrToUsd = 0.012M; // Example conversion rate from INR to USD
-        private const decimal ConversionUsdToInr = 83M;
-        [HttpPost("convertInrToUsd")]
-        public IActionResult ConvertInrtoUsd([FromBody] CurrencyConversionRequest request)
-        {
-            Console.WriteLine(request.Amount);
-            var convertedAmount = request.Amount * ConversionInrToUsd;
-            Console.WriteLine(convertedAmount);
-            return Ok(new { ConvertedAmount = convertedAmount });
-        }
+        private const decimal UsdToInr = 83.50M;
+        private const decimal InrToUsd = 0.012M;
 
         [HttpPost("convertUsdToInr")]
+        public IActionResult convertUsdToInr([FromBody] CurrencyConversionRequest convertUsdToInr)
+        {
+            decimal Result = convertUsdToInr.Amount * UsdToInr;       
+            return Ok(new {ConvertedAmount = Result});
 
-        public IActionResult ConvertUsdToInr([FromBody] CurrencyConversionRequest request) {
-            var convertedAmount = request.Amount * ConversionUsdToInr;
-            Console.WriteLine(convertedAmount);
-            return Ok(new { ConvertedAmount = convertedAmount});
+
         }
+
+        [HttpPost("convertInrToUsd")]
+
+        public IActionResult convertInrToUsd([FromBody] CurrencyConversionRequest convertInrToUsd)
+        {
+            decimal Result = convertInrToUsd.Amount * InrToUsd;
+
+            return Ok(new {ConvertedAmount = Result});
+        }
+
 
 
     }
